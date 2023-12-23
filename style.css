@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'ubuntu' sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+color: white;
+text-decoration: none;
+}
+
+body{
+background-image: linear-gradient( rgba(123, 67, 14, 0.547) , rgba(0, 0, 0, 0.862)),
+url(desktop/library) 
+;
+
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+background-image: -o-linear-gradient(rgba(165, 42, 42, 0.505), rgba(0, 0, 0, 0.478)),
+url(desktop/library)
+;
+width: 90%;
+height: 640px;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.logo{
+font-size: xx-large;
+text-transform: uppercase;
+
+}
+ul{
+width: 60%;
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+}
+  ul a{
+border-bottom: 2px solid transparent;
+  }  
+ ul a:hover{
+ border-bottom-color: white;
+
+ }   
+table{
+width: 40%;
+height: 40%;
+border-spacing: 2px;
+border: solid black;
+position: absolute ;
+left:20px;
+}
+
+ th{
+background: rgba(165, 97, 42, 0.607);
+border: solid black ;
+
+}
+td{
+  background: rgba(165, 85, 42, 0.568);
+  text-align: center;
+  border: 2px solid black;
+  font-size: large;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+label{
+font-size: 25px;
+}
+input{
+
+}
+form{
+position: relative;
+right: 300px;
+
+}
